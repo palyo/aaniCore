@@ -1,6 +1,25 @@
-# AaniCore
 
-An AaniCore library is for use ready core functionality for your app.
+# Aani Core
+[![](https://jitpack.io/v/palyo/aaniCore.svg)](https://jitpack.io/#palyo/aaniCore)
+
+A Core library of util classes for developers who can easy access ready maid functions to his/her project
+
+## Usage
+
+```gradle
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+``` 
+
+```gradle
+	dependencies {
+	        implementation 'com.github.palyo:aaniCore:<latest-version>'
+	}
+``` 
 
 ## 🚀 About Me
 I'm a Android Developer and Flutter beginner <br />
@@ -15,7 +34,7 @@ Please remember one thing in developing: "Develop Innovative"
 
 MIT License
 
-Copyright (c) 2022 Aani brothers infotech
+Copyright (c) 2022 palyo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
