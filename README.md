@@ -7,18 +7,17 @@ A Core library of util classes for developers who can easy access ready maid fun
 ## Usage
 
 ```gradle
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
 ``` 
 
 ```gradle
-	dependencies {
-	        implementation 'com.github.palyo:aaniCore:<latest-version>'
-	}
+dependencies {
+    implementation 'com.github.palyo:aaniCore:<latest-version>'
+}
 ``` 
 
 ## 🚀 About Me
