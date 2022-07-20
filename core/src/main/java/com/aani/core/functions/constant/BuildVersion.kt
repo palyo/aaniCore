@@ -1,4 +1,4 @@
-package com.aani.core.functions
+package com.aani.core.functions.constant
 
 import android.os.Build
 import androidx.annotation.ChecksSdkIntAtLeast

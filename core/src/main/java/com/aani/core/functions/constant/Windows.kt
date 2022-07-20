@@ -1,4 +1,4 @@
-package com.aani.core.functions
+package com.aani.core.functions.constant
 
 import android.app.Activity
 import android.graphics.Color

@@ -1,4 +1,4 @@
-package com.aani.core.functions
+package com.aani.core.functions.constant
 
 import android.content.Context
 import android.hardware.usb.UsbConstants
@@ -13,12 +13,7 @@ fun hasOTGConnected(context: Context): Boolean {
     val deviceList = usbManager.deviceList
     var devices: MutableList<UsbDevice> = ArrayList()
     if (deviceList.size > 0) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            devices = ArrayList(deviceList.values)
-        } else {
-            devices = ArrayList()
-            devices.addAll(deviceList.values)
-        }
+        devices = ArrayList(deviceList.values)
     }
     for (usbDevice in devices) {
         if (usbDevice.getInterface(0).interfaceClass == UsbConstants.USB_CLASS_MASS_STORAGE) {
