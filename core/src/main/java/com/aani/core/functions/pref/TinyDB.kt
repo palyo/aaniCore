@@ -3,14 +3,14 @@ package com.aani.core.functions.pref
 import android.content.Context
 import android.content.SharedPreferences
 
-class AaniDB(context: Context?) {
+class TinyDB(context: Context?) {
 
-    var instance: AaniDB? = null
+    var instance: TinyDB? = null
     var mShare: SharedPreferences? = null
-    
+
     init {
-        instance = AaniDB(context)
-        mShare = context!!.applicationContext.getSharedPreferences("coder_baba", 0)
+        instance = TinyDB(context)
+        mShare = context!!.applicationContext.getSharedPreferences("honted_house_pref", 0)
     }
 
     fun putBoolean(key: String?, value: Boolean) {
